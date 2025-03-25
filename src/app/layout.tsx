@@ -5,8 +5,11 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Andrew Bielous - Full Stack Developer',
-  description: 'Portfolio and curriculum of Andrew Bielous, Full Stack Developer',
+  title: 'Andrew Bielous | Full Stack Developer',
+  description: 'Personal portfolio and curriculum of Andrew Bielous, showcasing my experience as a Full Stack Developer and my journey in web development.',
+  keywords: 'Andrew Bielous, Full Stack Developer, Web Development, Portfolio',
+  authors: [{ name: 'Andrew Bielous' }],
+  creator: 'Andrew Bielous',
 };
 
 export default function RootLayout({

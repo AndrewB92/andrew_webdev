@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Layout from '@/components/Layout';
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
