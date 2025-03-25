@@ -43,11 +43,13 @@ export default function Background3D() {
         >
           <torusKnotGeometry args={[1, 0.3, 128, 16]} />
           <meshStandardMaterial
-            color={`hsl(${i * 20}, 70%, 50%)`}
+            color={i % 2 === 0 ? '#00f3ff' : '#ff00ff'}
             transparent
-            opacity={0.6}
-            metalness={0.5}
+            opacity={0.3}
+            metalness={0.8}
             roughness={0.2}
+            emissive={i % 2 === 0 ? '#00f3ff' : '#ff00ff'}
+            emissiveIntensity={0.5}
           />
         </mesh>
       ))}

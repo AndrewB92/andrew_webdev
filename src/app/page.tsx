@@ -7,20 +7,20 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center">
+      <section className="min-h-screen flex items-center justify-center relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center"
+          className="text-center cyber-border p-8 rounded-lg"
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 cyber-glitch cyber-text">
             Andrew Bielous
           </h1>
-          <h2 className="text-3xl md:text-4xl text-gray-300 mb-8">
+          <h2 className="text-3xl md:text-4xl text-[#00f3ff] mb-8 cyber-text">
             Full Stack Developer
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+          <p className="text-xl text-[#ff00ff] max-w-2xl mx-auto cyber-text">
             Passionate about creating innovative web solutions with modern technologies
           </p>
         </motion.div>
@@ -33,9 +33,9 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto cyber-border p-8 rounded-lg"
         >
-          <h2 className="text-4xl font-bold mb-8">About Me</h2>
+          <h2 className="text-4xl font-bold mb-8 cyber-text">About Me</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
             I am a full-stack developer with expertise in modern web technologies.
             My experience spans across frontend and backend development, with a
@@ -51,9 +51,9 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto cyber-border p-8 rounded-lg"
         >
-          <h2 className="text-4xl font-bold mb-8">Experience</h2>
+          <h2 className="text-4xl font-bold mb-8 cyber-text">Experience</h2>
           <div className="space-y-8">
             {/* Add your experience items here */}
           </div>
@@ -67,9 +67,9 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto cyber-border p-8 rounded-lg"
         >
-          <h2 className="text-4xl font-bold mb-8">Skills</h2>
+          <h2 className="text-4xl font-bold mb-8 cyber-text">Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {/* Add your skills here */}
           </div>
@@ -83,9 +83,9 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto cyber-border p-8 rounded-lg"
         >
-          <h2 className="text-4xl font-bold mb-8">Projects</h2>
+          <h2 className="text-4xl font-bold mb-8 cyber-text">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Add your projects here */}
           </div>
@@ -99,15 +99,15 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto text-center"
+          className="max-w-4xl mx-auto text-center cyber-border p-8 rounded-lg"
         >
-          <h2 className="text-4xl font-bold mb-8">Get in Touch</h2>
+          <h2 className="text-4xl font-bold mb-8 cyber-text">Get in Touch</h2>
           <p className="text-lg text-gray-300 mb-8">
             I&apos;m always open to discussing new projects and opportunities.
           </p>
           <a
             href="mailto:your.email@example.com"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors"
+            className="cyber-button inline-block"
           >
             Contact Me
           </a>
